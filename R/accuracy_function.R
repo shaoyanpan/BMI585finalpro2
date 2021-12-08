@@ -3,6 +3,7 @@
 #' @param pred: the prediction array
 #' @param  true: the true array
 #' @return sen: accuracy
+#' @export
 #' @examples
 #' pred <- c(1,1,1)
 #' true <- c(1,1,0)
