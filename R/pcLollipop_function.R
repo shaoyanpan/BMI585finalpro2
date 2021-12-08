@@ -3,6 +3,7 @@
 #' @param t: a numerical dataframe for PCA analysis
 #' @return theplot: The plot is directly shown up
 #' @import ggplot2
+#' @export
 #' @examples
 #' data(iris)
 #' t<- iris[1:100,1:4]
