@@ -2,6 +2,7 @@
 #' @description This functions accept one numerical value
 #' @param n: n samples
 #' @return data.frame(x_1,x_2): x_1 and x_2 are samples from the Box-Muller transformation
+#' @export
 #' @examples
 #' BOXMuller(500)
 

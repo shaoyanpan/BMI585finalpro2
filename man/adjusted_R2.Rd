@@ -10,6 +10,8 @@ adjusted_R2(y, y_d, n)
 \item{y:}{the numerical array for the ground truth}
 
 \item{y_d:}{the numerical array for the regression}
+
+\item{n:}{the number of the data}
 }
 \value{
 R_s: the adjusted R^2 measure
@@ -20,5 +22,6 @@ This functions accept two numerical arrays
 \examples{
 y <- c(1,1,1)
 y_d <- c(1,1,0.5)
-adjusted_R2(y,y_d)
+n <- 3
+adjusted_R2(y,y_d,n)
 }

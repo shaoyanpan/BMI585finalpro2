@@ -2,11 +2,14 @@
 #' @description This functions accept two numerical arrays
 #' @param y: the numerical array for the ground truth
 #' @param y_d: the numerical array for the regression
+#' @param n: the number of the data
 #' @return R_s: the adjusted R^2 measure
+#' @export
 #' @examples
 #' y <- c(1,1,1)
 #' y_d <- c(1,1,0.5)
-#' adjusted_R2(y,y_d)
+#' n <- 3
+#' adjusted_R2(y,y_d,n)
 
 
 adjusted_R2 <- function(y,y_d,n) {

@@ -3,6 +3,7 @@
 #' @param p: the numerical array for multiple comparison
 #' @param alpha: number of values in the first array
 #' @return p: post-hoc power
+#' @export
 #' @examples
 #' p<- c(0.0025, 0.0050, 0.0075, 0.0100, 0.0125, 0.0150, 0.0175, 0.0200, 0.0225, 0.0250)
 #' alpha <- 0.05
