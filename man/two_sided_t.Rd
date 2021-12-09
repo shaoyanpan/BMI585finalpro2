@@ -19,6 +19,6 @@ This functions accept a numerical value and and dataframe
 }
 \examples{
 df <- c(1,1,1)
-c <- 0.5
+t <- 0.5
 two_sided_t(t,df)
 }

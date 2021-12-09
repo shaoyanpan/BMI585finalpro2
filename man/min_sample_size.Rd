@@ -4,10 +4,10 @@
 \alias{min_sample_size}
 \title{BMI585 final project: find the minimum sample size}
 \usage{
-min_sample_size(power)
+min_sample_size(effect_size)
 }
 \arguments{
-\item{power:}{power for statistics}
+\item{effect_size:}{difference in means between the two groups divided by the sd}
 }
 \value{
 result: minimum sample size
@@ -16,6 +16,6 @@ result: minimum sample size
 This functions accept a numerical value
 }
 \examples{
-power <- 1
-min_sample_size(power)
+effect_size <- 1
+min_sample_size(effect_size)
 }
