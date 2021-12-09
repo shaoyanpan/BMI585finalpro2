@@ -3,7 +3,7 @@
 #' @param t: the upper bound |z|
 #' @return result: an array of area < |z|
 #' @export
-#' @import stats
+#' @import distributions3
 #' @examples
 #' z <- 0.5
 #' two_sided_z(z)

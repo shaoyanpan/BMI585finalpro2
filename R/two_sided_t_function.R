@@ -4,7 +4,7 @@
 #' @param df: a numerical array
 #' @return result: an array of area < |t|
 #' @export
-#' @import stats
+#' @import distributions3
 #' @examples
 #' df <- c(1,1,1)
 #' c <- 0.5
