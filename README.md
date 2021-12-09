@@ -4,8 +4,11 @@ Please follow the test_file.r script to install and import the package.
 
 For documentation, use the following commands for each function after you install and import
 help(Unscale)
+
 help(pcApprox)
+
 help(pcLollipop)
+
 help(sensitivity)
 help(specificity)
 help(accuracy)
