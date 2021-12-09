@@ -18,7 +18,7 @@ postHocPower = function(d,n1,n2){
   for (ind in 1:1000){
     group_1 <- rnorm(n1, mean = 0, sd = 1)
     group_2 <- rnorm(n2, mean = 0+d, sd = 1)
-    p <- p+power.t.test(n=n,delta=mean(group_1)-mean(group_2))$power
+    p <- p+power.t.test(n=(n1+n2)/2,delta=mean(group_1)-mean(group_2))$power
   }
   p <- p/1000
   return(p)
